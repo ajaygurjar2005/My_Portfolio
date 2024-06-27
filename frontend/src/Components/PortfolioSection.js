@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const PortfolioSection = () => {
   return (
@@ -42,10 +43,10 @@ const PortfolioSection = () => {
                         </div>
                         <div className="col-sm-4">
                           <div className="w-like">
-                            <a href="portfolio-details.html">
+                            <Link to={''}>
                               {" "}
                               <span className="bi bi-plus-circle" />
-                            </a>
+                            </Link>
                           </div>
                         </div>
                       </div>
@@ -78,10 +79,10 @@ const PortfolioSection = () => {
                         </div>
                         <div className="col-sm-4">
                           <div className="w-like">
-                            <a href="portfolio-details.html">
+                            <Link to={''}>
                               {" "}
                               <span className="bi bi-plus-circle" />
-                            </a>
+                            </Link>
                           </div>
                         </div>
                       </div>
@@ -114,10 +115,10 @@ const PortfolioSection = () => {
                         </div>
                         <div className="col-sm-4">
                           <div className="w-like">
-                            <a href="portfolio-details.html">
+                            <Link to={''}>
                               {" "}
                               <span className="bi bi-plus-circle" />
-                            </a>
+                            </Link>
                           </div>
                         </div>
                       </div>
@@ -150,10 +151,10 @@ const PortfolioSection = () => {
                         </div>
                         <div className="col-sm-4">
                           <div className="w-like">
-                            <a href="portfolio-details.html">
+                            <Link>
                               {" "}
                               <span className="bi bi-plus-circle" />
-                            </a>
+                            </Link>
                           </div>
                         </div>
                       </div>
@@ -186,10 +187,10 @@ const PortfolioSection = () => {
                         </div>
                         <div className="col-sm-4">
                           <div className="w-like">
-                            <a href="portfolio-details.html">
+                            <Link to={''}>
                               {" "}
                               <span className="bi bi-plus-circle" />
-                            </a>
+                            </Link>
                           </div>
                         </div>
                       </div>
@@ -198,7 +199,7 @@ const PortfolioSection = () => {
                 </div>
                 <div className="col-md-4">
                   <div className="work-box">
-                    <a
+                    <Link
                       href="img/work-6.jpg"
                       data-gallery="portfolioGallery"
                       className="portfolio-lightbox"
@@ -210,7 +211,7 @@ const PortfolioSection = () => {
                           className="img-fluid"
                         />
                       </div>
-                    </a>
+                    </Link>
                     <div className="work-content">
                       <div className="row">
                         <div className="col-sm-8">
@@ -222,10 +223,10 @@ const PortfolioSection = () => {
                         </div>
                         <div className="col-sm-4">
                           <div className="w-like">
-                            <a href="portfolio-details.html">
+                            <Link to="javascript:void(0)">
                               {" "}
                               <span className="bi bi-plus-circle" />
-                            </a>
+                            </Link>
                           </div>
                         </div>
                       </div>

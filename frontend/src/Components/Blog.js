@@ -20,13 +20,13 @@ const Blog = () => {
                 <div className="col-md-4">
                   <div className="card card-blog">
                     <div className="card-img">
-                      <a href="blog-single.html">
+                      <Link to={''}>
                         <img
                           src="img/post-1.jpg"
                           alt=""
                           className="img-fluid"
                         />
-                      </a>
+                      </Link>
                     </div>
                     <div className="card-body">
                       <div className="card-category-box">
@@ -35,9 +35,9 @@ const Blog = () => {
                         </div>
                       </div>
                       <h3 className="card-title">
-                        <a href="blog-single.html">
+                        <Link to={''}>
                           See more ideas about Travel
-                        </a>
+                        </Link>
                       </h3>
                       <p className="card-description">
                         Proin eget tortor risus. Pellentesque in ipsum id orci
@@ -47,7 +47,7 @@ const Blog = () => {
                     </div>
                     <div className="card-footer">
                       <div className="post-author">
-                        <Link href="/">
+                        <Link to="/">
                           <img
                             src="img/testimonial-2.jpg"
                             alt=""
@@ -65,13 +65,13 @@ const Blog = () => {
                 <div className="col-md-4">
                   <div className="card card-blog">
                     <div className="card-img">
-                      <a href="blog-single.html">
+                      <Link to={''}>
                         <img
                           src="img/post-2.jpg"
                           alt=""
                           className="img-fluid"
                         />
-                      </a>
+                      </Link>
                     </div>
                     <div className="card-body">
                       <div className="card-category-box">
@@ -80,9 +80,9 @@ const Blog = () => {
                         </div>
                       </div>
                       <h3 className="card-title">
-                        <a href="blog-single.html">
+                        <Link to={''}>
                           See more ideas about Travel
-                        </a>
+                        </Link>
                       </h3>
                       <p className="card-description">
                         Proin eget tortor risus. Pellentesque in ipsum id orci
@@ -92,14 +92,14 @@ const Blog = () => {
                     </div>
                     <div className="card-footer">
                       <div className="post-author">
-                        <a href="#">
+                        <Link to={''}>
                           <img
                             src="img/testimonial-2.jpg"
                             alt=""
                             className="avatar rounded-circle"
                           />
                           <span className="author">Morgan Freeman</span>
-                        </a>
+                        </Link>
                       </div>
                       <div className="post-date">
                         <span className="bi bi-clock" /> 10 min
@@ -110,13 +110,13 @@ const Blog = () => {
                 <div className="col-md-4">
                   <div className="card card-blog">
                     <div className="card-img">
-                      <a href="blog-single.html">
+                      <Link to={''}>
                         <img
                           src="img/post-3.jpg"
                           alt=""
                           className="img-fluid"
                         />
-                      </a>
+                      </Link>
                     </div>
                     <div className="card-body">
                       <div className="card-category-box">
@@ -125,9 +125,9 @@ const Blog = () => {
                         </div>
                       </div>
                       <h3 className="card-title">
-                        <a href="blog-single.html">
+                        <Link to={''}>
                           See more ideas about Travel
-                        </a>
+                        </Link>
                       </h3>
                       <p className="card-description">
                         Proin eget tortor risus. Pellentesque in ipsum id orci
@@ -137,14 +137,14 @@ const Blog = () => {
                     </div>
                     <div className="card-footer">
                       <div className="post-author">
-                        <a href="#">
+                        <Link to={''}>
                           <img
                             src="img/testimonial-2.jpg"
                             alt=""
                             className="avatar rounded-circle"
                           />
                           <span className="author">Morgan Freeman</span>
-                        </a>
+                        </Link>
                       </div>
                       <div className="post-date">
                         <span className="bi bi-clock" /> 10 min

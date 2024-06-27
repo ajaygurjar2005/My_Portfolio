@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -18,7 +19,7 @@ const Footer = () => {
     Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=DevFolio
   */}
                 Designed by{" "}
-                <a href="https://bootstrapmade.com/">BootstrapMade</a>
+                <Link to={''}>BootstrapMade</Link>
               </div>
             </div>
           </div>
